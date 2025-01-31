@@ -1,0 +1,9 @@
+.sora-font {
+    font-family: "Sora", serif;
+  }
+
+ .bg-gradient-img {
+    background-image: url('./c2-assets/vegetable-offer.png'), linear-gradient(to bottom right, #53DB3A, #FFFFFF);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
