@@ -165,8 +165,8 @@
     <section class="bg-[#EFEBE3] mt-8">
       <div class="lg:px-24 md:px-12 px-2 py-4 mx-auto space-y-4">
           <h3 class="text-[#179800] font-semibold text-4xl">Popular Products</h3>
-          <div class="flex flex-col lg:flex-row gap-6">
-                <div class="bg-gradient-img p-12 space-y-4 rounded-lg">
+          <div class="flex flex-col lg:flex-row gap-4">
+                <div class="bg-gradient-img p-12 space-y-4 rounded-lg lg:max-w-md">
                   <h3 class="text-white font-bold text-2xl">30% Off</h3>
                   <p class="text-base">Discover a world of treats, toys and essentials handpicked for</p>
                   <button class="text-2xl bg-white text-[#111111] px-5 py-3 rounded-lg">Buy Now</button>
@@ -174,7 +174,7 @@
 
                 <!-- products -->
 
-                <div class="grid grid-cols-3 gap-3">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-3">
                   <!-- product -->
                     <div class="flex gap-2 bg-white p-4 rounded-lg">
                         <img src="./c2-assets/Group 16 (1).png" alt="">
@@ -186,7 +186,7 @@
                           <h5 class="font-bold text-lg text-[#111111] ">Onion 1 KG</h5>
                           <h5  class="font-medium text-sm text-[#111111]">$39.99</h5>
                        </div>
-                        
+                         
                     </div>
                   <!-- product -->
                     <div class="flex gap-2 bg-white p-4 rounded-lg">
@@ -266,6 +266,7 @@
                        </div>
                         
                     </div>
+
                   <!-- product -->
                     <div class="flex gap-2 bg-white p-4 rounded-lg">
                         <img src="./c2-assets/Group 16.png" alt="">
@@ -279,28 +280,54 @@
                        </div>
                         
                     </div>
-                  <!-- product -->
-                    <div class="flex gap-2 bg-white p-4 rounded-lg">
-                        <img src="./c2-assets/Group 16.png" alt="">
-                       <div>
-                         <div class="rating flex items-center gap-2">
-                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          <h5>4.5</h5>
-                        </div>
-                          <h5 class="font-bold text-lg text-[#111111] ">Onion 1 KG</h5>
-                          <h5  class="font-medium text-sm text-[#111111]">$39.99</h5>
-                       </div>
-                        
-                    </div>
+
+                     <!-- product -->
+                     <div class="flex gap-2 bg-white p-4 rounded-lg hidden lg:flex">
+                      <img src="./c2-assets/Group 16 (2).png" alt="">
+                     <div>
+                       <div class="rating flex items-center gap-2">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <h5>4.5</h5>
+                      </div>
+                        <h5 class="font-bold text-lg text-[#111111] ">Onion 1 KG</h5>
+                        <h5  class="font-medium text-sm text-[#111111]">$39.99</h5>
+                     </div>
+                      
+                  </div>
                 </div>
-                
-             
           </div>
       </div>
   </section>
 
-    <!--test  -->
+  <!-- arrival and offers section -->
 
+  <section class="lg:px-24 md:px-12 px-2 py-8 mx-auto space-y-4">
+    <h3 class="text-[#179800] font-semibold text-4xl">Arrival & Offers</h3>
+   <div class="lg:flex lg:justify-between">
+       <!-- dawat biriyani -->
+       <div class="bg-[#115414] flex p-10 rounded-xl">
+        <div class="space-y-4 flex flex-col items-center">
+         <img src="./c2-assets/dawat-logo.png" alt="">
+         <h5 class="text-white text-xs px-10 py-4 bg-[#63B76D] rounded-lg">Cook Exotic Dishes</h5>
+         <h3 class="text-2xl text-white">Up to <span class="font-extrabold">20% Off</span></h3>
+        </div>
+        <div>
+           <img src="./c2-assets/dawat-mock-up.png" alt="">
+        </div>
+     </div>
+ <!-- dawat biriyani -->
+     <div class="bg-[#102861] flex p-10 rounded-xl mt-4 lg:mt-0">
+        <div class="space-y-4 flex flex-col items-center">
+         <img src="./c2-assets/india-gate-logo.png" alt="">
+         <h5 class="text-white text-xs px-10 py-4 bg-[#2A4D97] rounded-lg">Cook Exotic Dishes</h5>
+         <h3 class="text-2xl text-white">Up to <span class="font-extrabold">20% Off</span></h3>
+        </div>
+        <div>
+           <img src="./c2-assets/india-gate-mock-up.png" alt="">
+        </div>
+     </div>
+   </div>
+  </section>
    
   
 </body>
